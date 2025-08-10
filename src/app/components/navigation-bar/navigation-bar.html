@@ -1,0 +1,9 @@
+<ul class="navigation-bar">
+
+  @for (buttonItem of buttons; track buttonItem;) {
+    <li class="navigation-bar__list-item">
+      <navigation-button [text]="buttonItem"></navigation-button>
+    </li>
+  }
+
+</ul>

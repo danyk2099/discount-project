@@ -2,7 +2,7 @@
 
   @for (buttonItem of buttons; track buttonItem;) {
     <li class="navigation-bar__list-item">
-      <navigation-button [text]="buttonItem"></navigation-button>
+      <navigation-button [text]="buttonItem" [routerLink]="buttonItem"></navigation-button>
     </li>
   }
 
